@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="@drawable/button_white"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="כניסה"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"/>
+
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:background="#FFFFFF"
+
+        android:id="@+id/txtMailLogin"
+        android:textColor="#111111"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:hint="הכנס אימייל"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:background="#FFFFFF"
+            android:id="@+id/txtPassLogin"
+            android:textColor="#090909"
+            android:textAlignment="center"
+            android:maxLength="8"
+            android:layout_centerInParent="true"
+
+            android:hint="הכנס סיסמה"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:paddingBottom="10dp"
+
+        >
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_red_black"
+            android:text="ביטול"
+            android:textColor="#FFFFFF"
+
+            android:id="@+id/btnNewPlayerAlertCancel"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/cancel_button"
+            android:text="התחבר"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="40dp"
+
+            android:id="@+id/btnNewPlayerAlertAdd"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

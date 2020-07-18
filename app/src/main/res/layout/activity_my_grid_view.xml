@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyGridView"
+    android:background="@drawable/button_white">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="#111111"
+        android:textAlignment="center"
+        android:id="@+id/lblNumOfTax"
+
+        />
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridView"
+        android:numColumns="auto_fit"
+        android:layout_below="@id/lblNumOfTax"
+        android:layout_marginTop="20dp"
+        >
+
+
+    </GridView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/btnUploadImg"
+        android:text='שלח לרו"ח'
+        android:background="@drawable/button_backround"
+        android:textSize="30sp"
+
+        />
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/prograss"
+        android:visibility="invisible"/>
+
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_centerInParent="true"
+     >
+
+
+     <TextView
+         android:id="@+id/lblUploadOk"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="0dp"
+         android:background="#FFFFFF"
+         android:text="הקבצים נשלחו בהצלחה"
+         android:textColor="#111111"
+         android:textSize="32sp"
+         android:visibility="invisible" />
+
+
+
+ </RelativeLayout>
+
+</RelativeLayout>
